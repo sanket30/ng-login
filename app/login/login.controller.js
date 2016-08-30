@@ -2,11 +2,11 @@
     'use strict';
 
     angular
-        .module('myApp.view1')
-        .controller('View1Ctrl', View1Ctrl);
+        .module('app.login')
+        .controller('loginController', loginController);
 
     // @ngInject
-    function View1Ctrl(){
+    function loginController(){
         var vm = this;
 
         vm.controller = 'controller1';

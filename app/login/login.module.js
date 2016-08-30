@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('myApp.view1', [
+        .module('app.login', [
 
             // Core 3rd party modules:
             'ngRoute'
@@ -11,9 +11,9 @@
 
     // @ngInject
     function config($routeProvider) {
-        $routeProvider.when('/view1', {
-            templateUrl: 'view1/view1.html',
-            controller: 'View1Ctrl',
+        $routeProvider.when('/login', {
+            templateUrl: 'login/login.html',
+            controller: 'loginController',
             controllerAs: 'vm'
         });
     }

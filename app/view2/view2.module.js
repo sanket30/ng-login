@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('myApp.view2', [
+        .module('app.view2', [
 
             // Core 3rd party modules:
             'ngRoute'
