@@ -6,7 +6,7 @@
         .controller('UserDashboardController', UserDashboardController);
 
     // @ngInject
-    function UserDashboardController() {
+    function UserDashboardController($location) {
         var vm = this;
 
         vm.tiles = [
@@ -29,6 +29,7 @@
         ];
         vm.hoverInTile = hoverInTile;
         vm.hoverOutTile = hoverOutTile;
+        vm.go = go;
 
         function hoverInTile(data) {
             data.hover = true;
@@ -36,6 +37,10 @@
 
         function hoverOutTile(data) {
             data.hover = false;
+        }
+
+        function go(data) {
+            $location.path('/' + data.view);
         }
     }
 }(angular));
