@@ -1,0 +1,22 @@
+<div class="user-dashboard ud-full-height">
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+            <div class="ud-add-dashboard-container">
+                <div class="ud-add-border-shadow ud-full-height">
+                    <div class="col-xs-12 ud-header">What would you like to do?</div>
+                    <div ng-repeat="data in vm.tiles"
+                         class="col-xs-6 ud-add-tile-spacing">
+                        <div ng-mouseover="vm.hoverInTile(data)"
+                             ng-mouseleave="vm.hoverOutTile(data)"
+                             class="ud-add-tile"
+                             ng-class="{'ud-pull-right': ($index%2 === 0), 'ud-add-hover-tile': data.hover}">
+                            {{data.tileName}}
+                        </div>
+                    </div>
+                    <footer></footer>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
