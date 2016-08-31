@@ -11,16 +11,20 @@
 
         vm.tiles = [
             {
-                tileName: 'QUALIFY H1-B CANDIDATE'
+                tileName: 'QUALIFY H1-B CANDIDATE',
+                view: 'qualify-candidate'
             },
             {
-                tileName: 'HOURLY RATE CALCULATOR'
+                tileName: 'HOURLY RATE CALCULATOR',
+                view: 'rate-calculator'
             },
             {
-                tileName: 'SEND BENEFITS PACKAGE'
+                tileName: 'SEND BENEFITS PACKAGE',
+                view: 'benefits-package'
             },
             {
-                tileName: 'SUBMIT OFFER NOTIFICATION'
+                tileName: 'SUBMIT OFFER NOTIFICATION',
+                view: 'submit-offer'
             }
         ];
         vm.hoverInTile = hoverInTile;

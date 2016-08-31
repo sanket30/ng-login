@@ -1,20 +1,9 @@
-.user-dashboard {
-    background-color: #eee;
-}
-
-.ud-add-dashboard-container {
-    margin-top: 5em;
-    height: 450px;
-}
-
-.ud-full-height {
-    height: 100%;
-}
-
 .ud-add-border-shadow {
+    margin-top: 5em;
     background-color: white;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.12);
     padding: 35px;
+    height: 450px;
 }
 
 .ud-header {
@@ -31,6 +20,7 @@
 }
 
 .ud-add-tile {
+    display: block;
     width: 180px;
     height: 100px;
     padding: 25px;
@@ -47,6 +37,8 @@
 }
 
 .ud-add-hover-tile {
+    cursor: pointer;
     background-color: #6D1616;
-    color: white;
+    color: white !important;
+    text-decoration: none !important;
 }

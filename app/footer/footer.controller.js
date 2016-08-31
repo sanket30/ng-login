@@ -7,6 +7,8 @@
 
     function FooterController() {
         var vm = this;
+
+        vm.email = 'trevor.benson@egeni.com';
     }
 
 }(angular));

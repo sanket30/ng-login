@@ -10,6 +10,10 @@
             // local modules
             'app.login',
             'app.userDashboard',
+            'app.qualifyCandidate',
+            'app.rateCalculator',
+            'app.submitOffer',
+            'app.benefitsPackage',
             'app.view2'
         ])
         .config(config);
