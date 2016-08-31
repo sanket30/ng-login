@@ -43,12 +43,32 @@ input.form-control {
     border-bottom: 2px solid #6D1616;
 }
 
-.btn.btn-primary {
+.app.btn.btn-primary {
     color: #fff;
     background-color: #6D1616;
     border-color: #6D1616;
     border-radius: 0;
     text-transform: uppercase;
+}
+
+.app.btn.btn-default {
+    color: #fff;
+    background-color: grey;
+    border-color: grey;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
 }
 
 .dropdown-menu {
@@ -65,15 +85,4 @@ input.form-control {
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
     background-color: #6D1616;
-}
-.btn.btn-default {
-    color: #fff;
-    background-color: grey;
-    border-color: grey;
-    border-radius: 0;
-    text-transform: uppercase;
-}
-
-.text-align-center {
-    text-align: center;
 }
