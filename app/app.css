@@ -1,116 +1,41 @@
-/* app css stylesheet */
-
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+body {
+    height: 100vh;
+    background-color: #eee;
 }
 
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
-}
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
-
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+.navbar {
+    margin-bottom: 0
 }
 
 .navbar-header {
-  height: 60px;
-}
-
-body {
-  height: 100vh;
+    height: 60px;
 }
 
 .navbar-brand {
-  height: 50px;
-  width: 270px;
-  margin: 0 auto;
-  display: block;
-  float: none;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
 }
 
 .navbar-logo {
-  height: 50px;
-  width: 270px;
+    height: 40px;
+    width: 220px;
 }
 
-.view-container {
-  height: calc( 100% - 90px );
-  box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.12) inset;
+.login-page {
+    background-image: url('assets/images/background.jpg');
+    height: 100vh;
+    width: 100%;
 }
 
-.login-page-content {
-  background-image :url('assets/images/background.jpg');
-  box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.12) inset;
-  height: 100%;
-}
-
-.login-card-container {
-  position:absolute;
-  margin-top: 200px;
-  margin-left: auto;
-}
-
-.login-card-container .card-block {
-  height: 300px;
-  width: 60vw;
-  left: 50vw;
-  margin-left: -30vw;
-  border-radius: 0px;
-  border: none;
-  background-color: rgba(255,255,255,0.9);
-}
-
-.btn.btn-primary {
-  color: #fff;
-  background-color: rgb(109, 22, 22);
-  border-color: rgb(109, 22, 22);
-  border-radius: 0px;
-  text-transform: uppercase;
-}
-
-.login-card-body {
-  height: 220px;
-}
-
-.login-card-footer {
-  height: 40px;
-  padding: 2px 0px;
-}
-
-.info-container {
-  text-align: right;
-  color: #6D1616;
-  padding-top: 20px;
-  line-height: 1;
+.login-container {
+    margin-top: 70px;
+    height: 500px;
+    background-color: white;
+    opacity: 0.9;
 }
 
 .egen-logo {
-  height: 36px;
-  width: 100px;
-}
-
-.egen-text-container {
-  font-size: 12px;
-  color: #6D6E71;
-  font-weight: 500;
-  margin-left: 1px;
-  line-height: 1;
-  padding-bottom: 5px;
+    height: 36px;
+    width: 100px;
 }
