@@ -8,9 +8,7 @@
     function footer() {
         return {
             restrict: 'E',
-            scope: {
-                email: '@'
-            },
+            scope: {},
             templateUrl: 'footer/footer.html',
             controller: 'FooterController',
             controllerAs: 'vm'
