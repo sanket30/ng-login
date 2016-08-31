@@ -5,7 +5,11 @@
         .module('app.login', [
 
             // Core 3rd party modules:
-            'ngRoute'
+            'ngRoute',
+            'ui.bootstrap',
+
+            // local modules
+            'app.footer'
         ])
         .config(config);
 

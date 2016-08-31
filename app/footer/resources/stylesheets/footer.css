@@ -1,6 +1,10 @@
 .ft-container {
     height: 40px;
     padding: 2px 0;
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
+    right: 35px;
 }
 
 .ft-text-container {
