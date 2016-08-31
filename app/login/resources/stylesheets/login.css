@@ -1,0 +1,27 @@
+.login-page {
+    background-image: url('assets/images/background.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+.login-container {
+    margin-top: 70px;
+    padding: 35px;
+    height: 500px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.login-body {
+    padding-top: 150px;
+}
+
+.login-body-location {
+    position: relative;
+}
+
+.login-glyph-dropdown {
+    position: absolute;
+    right: 5px;
+    top: 12px;
+}
