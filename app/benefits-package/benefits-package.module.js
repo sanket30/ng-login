@@ -4,7 +4,7 @@
     angular
         .module('app.benefitsPackage', [
             'ngRoute',
-            'app.footer'
+            'app.defaultContainer'
         ])
         .config(config);
 

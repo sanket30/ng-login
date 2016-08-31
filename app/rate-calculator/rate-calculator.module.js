@@ -4,7 +4,7 @@
     angular
         .module('app.rateCalculator', [
             'ngRoute',
-            'app.footer'
+            'app.defaultContainer'
         ])
         .config(config);
 

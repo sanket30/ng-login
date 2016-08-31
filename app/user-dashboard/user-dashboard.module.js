@@ -8,7 +8,7 @@
             'ngRoute',
 
             // local modules
-            'app.footer'
+            'app.defaultContainer'
         ])
         .config(config);
 

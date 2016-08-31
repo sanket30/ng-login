@@ -4,7 +4,7 @@
     angular
         .module('app.qualifyCandidate', [
             'ngRoute',
-            'app.footer'
+            'app.defaultContainer'
         ])
         .config(config);
 
