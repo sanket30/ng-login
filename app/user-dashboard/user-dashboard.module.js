@@ -3,7 +3,11 @@
 
     angular
         .module('app.userDashboard', [
+
+            // Core 3rd party modules:
             'ngRoute',
+
+            // local modules
             'app.footer'
         ])
         .config(config);

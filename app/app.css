@@ -4,7 +4,10 @@ body {
 }
 
 .navbar {
-    margin-bottom: 0
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: white;
+    box-shadow: 0 1px 1px 1px rgba(119, 119, 119, 0.5);
 }
 
 .navbar-header {
@@ -30,12 +33,44 @@ body {
 
 .login-container {
     margin-top: 70px;
+    padding: 35px;
     height: 500px;
     background-color: white;
     opacity: 0.9;
 }
 
-.egen-logo {
-    height: 36px;
-    width: 100px;
+.login-body {
+    padding-top: 150px;
+}
+
+.login-body-location {
+    position: relative;
+}
+
+.glyph-dropdown {
+    position: absolute;
+    right: 5px;
+    top: 12px;
+}
+
+input.form-control:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #6D1616
+}
+
+input.form-control {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid #6D1616;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #6D1616;
+    border-color: #6D1616;
+    border-radius: 0;
+    text-transform: uppercase;
 }
