@@ -2,6 +2,6 @@
     'use strict';
 
     angular
-        .module('app.footer', []);
+        .module('app.defaultContainer', []);
 
 }(angular));

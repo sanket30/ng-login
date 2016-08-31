@@ -1,19 +1,15 @@
-<div class="row">
-    <div class="col-xs-2"></div>
-    <div class="col-xs-8">
-        <div class="ud-add-border-shadow">
-            <div class="col-xs-12 ud-header">What would you like to do?</div>
-            <div ng-repeat="data in vm.tiles"
-                 class="col-xs-6 ud-add-tile-spacing">
-                <a ng-mouseover="vm.hoverInTile(data)"
-                   ng-mouseleave="vm.hoverOutTile(data)"
-                   href="#app/{{data.view}}"
-                   class="ud-add-tile"
-                   ng-class="{'ud-pull-right': ($index%2 === 0), 'ud-add-hover-tile': data.hover}">
-                    {{data.tileName}}
-                </a>
-            </div>
-            <footer></footer>
+<div default-container>
+    <div class="ud-add-container-height">
+        <div class="col-xs-12 ud-header">What would you like to do?</div>
+        <div ng-repeat="data in vm.tiles"
+             class="col-xs-6 ud-add-tile-spacing">
+            <a ng-mouseover="vm.hoverInTile(data)"
+               ng-mouseleave="vm.hoverOutTile(data)"
+               href="#app/{{data.view}}"
+               class="ud-add-tile"
+               ng-class="{'ud-pull-right': ($index%2 === 0), 'ud-add-hover-tile': data.hover}">
+                {{data.tileName}}
+            </a>
         </div>
     </div>
 </div>

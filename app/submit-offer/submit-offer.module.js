@@ -4,7 +4,7 @@
     angular
         .module('app.submitOffer', [
             'ngRoute',
-            'app.footer'
+            'app.defaultContainer'
         ])
         .config(config);
 
