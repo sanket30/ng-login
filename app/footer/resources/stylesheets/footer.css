@@ -1,0 +1,25 @@
+.ft-container {
+    height: 40px;
+    padding: 2px 0;
+}
+
+.ft-text-container {
+    font-size: 12px;
+    color: #6D6E71;
+    font-weight: 500;
+    margin-left: 1px;
+    line-height: 1;
+    padding-bottom: 5px;
+}
+
+.ft-logo {
+    height: 36px;
+    width: 100px;
+}
+
+.ft-info-container {
+    text-align: right;
+    color: #6D1616;
+    padding-top: 20px;
+    line-height: 1;
+}

@@ -1,0 +1,52 @@
+.user-dashboard {
+    background-color: #eee;
+}
+
+.ud-add-dashboard-container {
+    margin-top: 5em;
+    height: 450px;
+}
+
+.ud-full-height {
+    height: 100%;
+}
+
+.ud-add-border-shadow {
+    background-color: white;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.12);
+    padding: 35px;
+}
+
+.ud-header {
+    text-align: center;
+    font-family: sans-serif;
+    color: #7b7b7b;
+    font-size: 21px;
+    font-weight: 300;
+    padding-bottom: 35px;
+}
+
+.ud-add-tile-spacing {
+    padding-bottom: 30px;
+}
+
+.ud-add-tile {
+    width: 180px;
+    height: 100px;
+    padding: 25px;
+    border: solid 2px #6D1616;
+    text-align: center;
+    font-family: sans-serif;
+    color: #7b7b7b;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ud-pull-right {
+    float: right;
+}
+
+.ud-add-hover-tile {
+    background-color: #6D1616;
+    color: white;
+}

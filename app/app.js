@@ -9,6 +9,7 @@
 
             // local modules
             'app.login',
+            'app.userDashboard',
             'app.view2'
         ])
         .config(config);
