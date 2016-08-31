@@ -51,6 +51,21 @@ input.form-control {
     text-transform: uppercase;
 }
 
+.dropdown-menu {
+    right: 0;
+
+}
+
+.dropdown-menu > li > a {
+    color: #7b7b7b;
+    font-weight: 400;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    background-color: #6D1616;
+}
 .btn.btn-default {
     color: #fff;
     background-color: grey;
