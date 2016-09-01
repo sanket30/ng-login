@@ -6,12 +6,13 @@
                 <div class="row padding-top-50">
                     <div class="row padding-bottom-20">
                         <div class="col s6">
-                            <div class="col s12">
+                            <div class="input-field col s12">
                                 <input type="number"
                                        class="form-control"
+                                       id="bill_rate"
                                        ng-model="vm.baseRate"
-                                       ng-change="vm.calculateRate()"
-                                       placeholder="Egen Bill Rate">
+                                       ng-change="vm.calculateRate()">
+                                <label for="bill_rate">Egen Bill Rate</label>
                             </div>
                             <div class="col s12 rate-calculator-relocation">
                                 <div class="col s7" style="padding: 0;">
@@ -33,7 +34,8 @@
                         </div>
                         <div class="col s6">
                             <div class="rate-calculator-cost">
-                                <h2 class="no-margin text-center">{{(vm.finalRate || 0) | currency:'$':true:'1.2-2'}} /Hour</h2>
+                                <h2 class="no-margin text-center">{{(vm.finalRate || 0) | currency:'$':true:'1.2-2'}}
+                                    /Hour</h2>
                             </div>
                         </div>
                     </div>

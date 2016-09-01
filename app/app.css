@@ -139,3 +139,7 @@ input.form-control {
 input[type=text]:focus:not([readonly]) + label {
     color: #6D1616;
 }
+
+input[type=number]:focus:not([readonly]) + label {
+    color: #6D1616;
+}

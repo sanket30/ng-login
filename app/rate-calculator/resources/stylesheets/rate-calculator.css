@@ -10,6 +10,11 @@
     font-size: 16px;
 }
 
+.rate-calculator label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .rate-calculator-header {
     text-align: center;
     font-family: sans-serif;
