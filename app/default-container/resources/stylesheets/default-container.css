@@ -1,4 +1,5 @@
 .dc-add-border-shadow {
+    position: relative;
     margin-top: 5em;
     background-color: white;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.12);
@@ -31,6 +32,6 @@
 .dc-footer-info-container {
     text-align: right;
     color: #6D1616;
-    padding-top: 20px;
+    margin-top: 20px;
     line-height: 1;
 }

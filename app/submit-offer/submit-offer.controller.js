@@ -6,13 +6,24 @@
         .controller('SubmitOfferController', SubmitOfferController);
 
     // @ngInject
-    function SubmitOfferController() {
+    function SubmitOfferController($http) {
         var vm = this;
         vm.update = update;
+        vm.getAllCandidates = getAllCandidates;
 
-        function update(user){
-            console.log(user);
+        vm.getAllCandidates();
+
+        function update(user) {
+            $http.post('/candidate',
+                user
+            ).then(function (res) {
+                })
         }
 
+        function getAllCandidates() {
+            $http.get('/candidate/all').then(function (res) {
+                vm.candidates = res.data;
+            });
+        }
     }
 }(angular));
