@@ -1,30 +1,30 @@
-.login-container-height {
+.login-container {
     height: 500px;
 }
 
-.login-container-height input {
+.login-container input {
     font-size: 16px;
 }
 
-.login-container-height label {
+.login-container label {
     font-size: 16px;
     font-weight: 400;
 }
 
-.login-container-height label.active {
+.login-container label.active {
     color: #6D1616
 }
 
-.login-container-height .padding-top-120 {
+.login-container .padding-top-120 {
     padding-top: 120px;
 }
 
-.login-container-height .login-body-location {
+.login-container .login-body-location {
     margin-bottom: 50px;
     position: relative;
 }
 
-.login-container-height .login-glyph-dropdown {
+.login-container .login-glyph-dropdown {
     position: absolute;
     right: 5px;
     top: 12px;
