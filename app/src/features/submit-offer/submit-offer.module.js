@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.rateCalculator', [
+        .module('app.submitOffer', [
             'ngRoute',
             'app.defaultContainer'
         ])
@@ -10,9 +10,9 @@
 
     // @ngInject
     function config($routeProvider) {
-        $routeProvider.when('/rate-calculator', {
-            templateUrl: 'rate-calculator/rate-calculator.html',
-            controller: 'RateCalculatorController',
+        $routeProvider.when('/submit-offer', {
+            templateUrl: 'src/features/submit-offer/submit-offer.html',
+            controller: 'SubmitOfferController',
             controllerAs: 'vm'
         });
     }

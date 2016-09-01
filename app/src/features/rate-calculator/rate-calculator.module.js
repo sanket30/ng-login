@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.benefitsPackage', [
+        .module('app.rateCalculator', [
             'ngRoute',
             'app.defaultContainer'
         ])
@@ -10,9 +10,9 @@
 
     // @ngInject
     function config($routeProvider) {
-        $routeProvider.when('/benefits-package', {
-            templateUrl: 'benefits-package/benefits-package.html',
-            controller: 'BenefitsPackageController',
+        $routeProvider.when('/rate-calculator', {
+            templateUrl: 'src/features/rate-calculator/rate-calculator.html',
+            controller: 'RateCalculatorController',
             controllerAs: 'vm'
         });
     }

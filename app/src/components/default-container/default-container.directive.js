@@ -10,7 +10,7 @@
             restrict: 'A',
             transclude: true,
             scope: {},
-            templateUrl: 'default-container/default-container.html',
+            templateUrl: 'src/components/default-container/default-container.html',
             controller: 'DefaultContainerController',
             controllerAs: 'vm'
         }

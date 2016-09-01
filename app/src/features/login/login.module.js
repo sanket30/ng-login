@@ -2,10 +2,11 @@
     'use strict';
 
     angular
-        .module('app.userDashboard', [
+        .module('app.login', [
 
             // Core 3rd party modules:
             'ngRoute',
+            'ui.bootstrap',
 
             // local modules
             'app.defaultContainer'
@@ -14,9 +15,9 @@
 
     // @ngInject
     function config($routeProvider) {
-        $routeProvider.when('/user-dashboard', {
-            templateUrl: 'user-dashboard/user-dashboard.html',
-            controller: 'UserDashboardController',
+        $routeProvider.when('/login', {
+            templateUrl: 'src/features/login/login.html',
+            controller: 'loginController',
             controllerAs: 'vm'
         });
     }

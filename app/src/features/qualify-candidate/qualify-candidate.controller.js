@@ -30,7 +30,7 @@
             },
             {
                 text: 'Is the candidate currently engaged in project?',
-                expectedAnswer: 0
+                expectedAnswer: 1
             }
         ];
 

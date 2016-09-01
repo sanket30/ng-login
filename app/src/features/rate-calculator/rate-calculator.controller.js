@@ -11,7 +11,7 @@
         vm.calculateRate = calculateRate;
 
         vm.finalRate = 0;
-        vm.isRelocationNeeded = true;
+        vm.isRelocationNeeded = false;
 
         function calculateRate() {
             if (vm.baseRate) {
