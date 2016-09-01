@@ -10,6 +10,14 @@
     font-size: 16px;
 }
 
+.qc-container-height textarea {
+    margin-bottom: 0;
+}
+
+.qc-container-height .form-group {
+    margin-bottom: 0;
+}
+
 .qc-header {
     text-align: center;
     font-family: sans-serif;
@@ -56,4 +64,12 @@
 
 .qc-add-margin {
     margin-top: 5px;
+}
+
+.float-right {
+    float: right;
+}
+
+.dark-red {
+    color: #6D1616;
 }
