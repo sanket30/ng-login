@@ -63,8 +63,16 @@ input.form-control {
     margin-top: 25px;
 }
 
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
 .no-margin {
-    margin: 0;
+    margin: 0 !important;
 }
 
 .text-align-center {
@@ -126,4 +134,8 @@ input.form-control {
 
 .switch label input[type=checkbox]:checked + .lever:after {
     background-color: #6D1616;
+}
+
+input[type=text]:focus:not([readonly]) + label {
+    color: #6D1616;
 }

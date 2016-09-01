@@ -3,29 +3,29 @@
         <div class="col s12 so-header">SUBMIT OFFER NOTIFICATION</div>
         <div class="col s12 so-body">
             <form name="userForm">
-                <div class="row  margin-bottom-20">
-                    <div class="col s6">
+                <div class="row">
+                    <div class="input-field col s6">
                         <input type="text"
-                               class="form-control"
+                               class="form-control no-margin"
                                id="candidate_name"
-                               ng-model="user.name"
-                               placeholder="Candidate Name">
+                               ng-model="user.name">
+                        <label for="candidate_name">Candidate Name</label>
                     </div>
-                    <div class="col s6">
+                    <div class="input-field col s6">
                         <input type="date"
-                               class="form-control"
+                               class="form-control no-margin"
                                ng-model="user.startDate"/>
                     </div>
                 </div>
-                <div class="row  margin-bottom-20">
-                    <div class="col s6">
+                <div class="row">
+                    <div class="input-field col s6">
                         <input type="text"
-                               class="form-control"
+                               class="form-control no-margin"
                                id="client_name"
-                               ng-model="user.clientName"
-                               placeholder="Client Name">
+                               ng-model="user.clientName">
+                        <label for="client_name">Client Name</label>
                     </div>
-                    <div class="col s6 so-contract-input">
+                    <div class="col s6 margin-top-35">
                         <div class="col s7" style="padding: 0;">
                             <span>Contract at least 6 months</span>
                         </div>
@@ -42,31 +42,31 @@
                         </div>
                     </div>
                 </div>
-                <div class="row  margin-bottom-20">
-                    <div class="col s6">
+                <div class="row">
+                    <div class="input-field col s6">
                         <input type="text"
-                               class="form-control"
+                               class="form-control no-margin"
                                id="candidate_rate"
-                               ng-model="user.payRate"
-                               placeholder="Candidate Pay Rate">
+                               ng-model="user.payRate">
+                        <label for="candidate_rate">Candidate Pay Rate</label>
                     </div>
-                    <div class="col s6">
+                    <div class="input-field col s6">
                         <input type="text"
-                               class="form-control"
+                               class="form-control no-margin"
                                id="egen_rate"
-                               ng-model="user.billRate"
-                               placeholder="Egen Bill Rate">
+                               ng-model="user.billRate">
+                        <label for="egen_rate">Egen Bill Rate</label>
                     </div>
                 </div>
-                <div class="row  margin-bottom-20">
-                    <div class="col s6">
+                <div class="row">
+                    <div class="input-field col s6">
                         <div class="file-field">
                             <div>
                                 <input type="file">
                             </div>
                             <div>
-                                <input class="file-path validate form-control"
-                                       mg-model="user.resume"
+                                <input class="file-path validate form-control no-margin"
+                                       ng-model="user.resume"
                                        type="text"
                                        placeholder="Upload Resume">
                             </div>
