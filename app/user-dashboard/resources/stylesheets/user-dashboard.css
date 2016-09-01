@@ -1,8 +1,8 @@
-.ud-add-container-height {
+.user-dashboard {
     height: 450px;
 }
 
-.ud-header {
+.user-dashboard-header {
     text-align: center;
     font-family: sans-serif;
     color: #7b7b7b;
@@ -11,11 +11,11 @@
     margin-bottom: 35px;
 }
 
-.ud-add-tile-spacing {
+.user-dashboard .add-tile-spacing {
     margin-bottom: 30px;
 }
 
-.ud-add-tile {
+.user-dashboard .add-tile {
     display: block;
     width: 180px;
     height: 100px;
@@ -24,11 +24,11 @@
     text-align: center;
 }
 
-.ud-pull-right {
+.user-dashboard .pull-right {
     float: right;
 }
 
-.ud-add-hover-tile {
+.user-dashboard .add-hover-tile {
     cursor: pointer;
     background-color: #6D1616;
     color: white;
