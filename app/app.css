@@ -43,21 +43,42 @@ input.form-control {
     border-bottom: 2px solid #6D1616 !important;
 }
 
-.text-align-center {
-    text-align: center;
+.padding-bottom-20 {
+    padding-bottom: 20px;
 }
 
-.margin-bottom-20 {
-    margin-bottom: 20px;
+.padding-top-50 {
+    padding-top: 50px;
 }
 
 .margin-top-20 {
     margin-top: 20px;
 }
 
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
 .dropdown-menu {
     right: 0;
-
 }
 
 .dropdown-menu > li > a {
