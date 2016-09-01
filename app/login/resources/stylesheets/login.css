@@ -6,12 +6,17 @@
     font-size: 16px;
 }
 
-.login-container-height .login-body {
-    padding-top: 130px;
+.login-container-height label {
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.login-container-height .login-body-email{
-    margin-bottom: 50px;
+.login-container-height label.active {
+    color: #6D1616
+}
+
+.login-container-height .padding-top-120 {
+    padding-top: 120px;
 }
 
 .login-container-height .login-body-location {

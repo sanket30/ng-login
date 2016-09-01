@@ -59,6 +59,10 @@ input.form-control {
     margin-bottom: 20px;
 }
 
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
 .margin-top-25 {
     margin-top: 25px;
 }
@@ -141,5 +145,9 @@ input[type=text]:focus:not([readonly]) + label {
 }
 
 input[type=number]:focus:not([readonly]) + label {
+    color: #6D1616;
+}
+
+input[type=email]:focus:not([readonly]) + label {
     color: #6D1616;
 }
