@@ -1,30 +1,22 @@
-.qc-container-height {
+.qualify-candidate {
     height: 450px;
 }
 
-.qc-container-height label {
-    font-weight: 400;
-}
-
-.qc-container-height form span {
-    font-size: 16px;
-}
-
-.qc-container-height textarea {
-    margin-bottom: 0;
-}
-
-.qc-container-height .form-group {
-    margin-bottom: 0;
-}
-
-.qc-header {
+.qualify-candidate-header {
     text-align: center;
     font-family: sans-serif;
     color: #7b7b7b;
     font-size: 21px;
     font-weight: 300;
     margin-bottom: 35px;
+}
+
+.qualify-candidate label {
+    font-weight: 400;
+}
+
+.qualify-candidate form span {
+    font-size: 16px;
 }
 
 .qc-answer {
@@ -64,10 +56,6 @@
 
 .qc-add-margin {
     margin-top: 5px;
-}
-
-.float-right {
-    float: right;
 }
 
 .dark-red {

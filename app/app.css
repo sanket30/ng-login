@@ -117,6 +117,10 @@ textarea.materialize-textarea {
     padding: 0 15px;
 }
 
+.float-right {
+    float: right;
+}
+
 .btn-primary {
     background-color: #6D1616 !important;
 }
